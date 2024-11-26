@@ -1,0 +1,16 @@
+{
+    "set USERLIMIT": 100,
+    "set SESSIONTIMEOUT": "#[USERLIMIT * 5]",
+    "USERSETTINGS": {
+        "MAXLOGINATTEMPTS": "#[USERLIMIT / 10]",
+        "SESSIONDURATION": "#[SESSIONTIMEOUT - 10]",
+        "<!-- Информация о настройках пользователя -->": "Здесь настраиваются параметры для пользователя"
+    },
+    "LOGGING": {
+        "ERRORLOG": "log error message"
+    },
+    "SYSTEM": {
+        "BACKUP": "#[SESSIONTIMEOUT / 2]"
+    },
+    "COMMENTEDSECTION": "<!-- Эти настройки не будут активны -->"
+}

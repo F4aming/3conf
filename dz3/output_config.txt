@@ -1,0 +1,6 @@
+A = 10;
+B = 15;
+DATA = {
+ VALUEONE : 20,
+ VALUETWO : 10,
+}
